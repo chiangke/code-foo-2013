@@ -10,14 +10,17 @@ US total population - 315,750,000
 Assuming our definition of gamer includes NPD's categories
 of Mobile, Digital, Core, Light/Avid PC, Family&Kid gamers,
 and using the estimate that 2/3 of the US population plays games,
-we arrive at an estimate of 4,700,000 gamers in the Bay Area
+we arrive at an estimate of 4,700,000 gamers in the Bay Area (2/3 of the Bay Area population)
 
-3. WordSearch.java
+3. run WordSearch.java
 
 Backend
 
-1.FamilyTree.java (algorithm analysis in header of file)
+1. run FamilyTree.java (algorithm analysis in header of file)
 
-2.HighScoreSort.java (algorithm analysis in header of file)
+2. run HighScoreSort.java (algorithm analysis in header of file)
 
-3.ThreeLetterWord.java
+3. run ThreeLetterWord.java -> enter 3 letter words into console
+
+Bonus
+Source code & README for game in /xna_game
