@@ -1,0 +1,2 @@
+C:\Users\Kevin\Desktop\StarFox64\GameStateManagement\Content\obj\x86\Release\GameStateManagementContent.contentprojResolveAssemblyReference.cache
+C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\Content\obj\x86\Release\GameStateManagementContent.contentprojResolveAssemblyReference.cache

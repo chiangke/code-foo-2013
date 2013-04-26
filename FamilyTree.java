@@ -1,5 +1,20 @@
 import java.util.*;
 
+/*This algorithm for a family tree of n members has runtime of theta(2n)
+ *Upon creating the family tree (a linked list where each member has a linked list to all its
+ *children), the program runs through every member and hashes it with his/her generation and 
+ *first name. 
+ *Now that all members are hashed to buckets with keys being generation or first name, the
+ *lookup complexity is simply O(1). 
+ *Because we want all members that match name/generation, the issue of collisions does not apply
+ *and there is no need to search through the hash bucket; we can simply grab all members in 
+ *that bucket and return it.
+ *
+ *Algorithm scales linearly with the number of members in the tree.
+ *Because two hashes are done (one for generation, one for first name), 
+ *the complexity is theta(2n)
+ */
+
 public class FamilyTree {
 	static FamilyMember james, joe, zoey, daniel, erika, robert, pat, mike, chad, mark;
 	public FamilyTree() {

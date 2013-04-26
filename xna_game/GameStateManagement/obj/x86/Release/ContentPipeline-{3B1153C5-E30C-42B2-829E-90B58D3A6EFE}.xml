@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Pictures\background.png</Source>
+      <Name>Pictures\background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Pictures\background.xnb</Output>
+      <Time>2013-04-11T15:45:47.4601417-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Pictures\blank.png</Source>
+      <Name>Pictures\blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Pictures\blank.xnb</Output>
+      <Time>2013-04-11T15:45:47.0653078-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Pictures\gradient.png</Source>
+      <Name>Pictures\gradient</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Pictures\gradient.xnb</Output>
+      <Time>2013-04-11T15:45:47.4271182-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Pictures\supermariostar.png</Source>
+      <Name>Pictures\supermariostar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Pictures\supermariostar.xnb</Output>
+      <Time>2013-04-11T15:45:47.4821546-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Pictures\reticule.png</Source>
+      <Name>Pictures\reticule</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Pictures\reticule.xnb</Output>
+      <Time>2013-04-11T15:45:47.3900926-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Pictures\bombicon.png</Source>
+      <Name>Pictures\bombicon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Pictures\bombicon.xnb</Output>
+      <Time>2013-04-11T15:45:47.2383939-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\CliffWall.jpg</Source>
+      <Name>Models\CliffWall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\CliffWall.xnb</Output>
+      <Time>2013-04-11T15:45:45.7304215-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Pictures\healthbar.png</Source>
+      <Name>Pictures\healthbar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Pictures\healthbar.xnb</Output>
+      <Time>2013-04-11T15:45:47.3650787-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Pictures\shipicon.png</Source>
+      <Name>Pictures\shipicon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Pictures\shipicon.xnb</Output>
+      <Time>2013-04-11T15:45:47.4101102-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Water.jpg</Source>
+      <Name>Models\Water</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\Water.xnb</Output>
+      <Time>2013-04-11T15:45:46.4538999-07:00</Time>
+    </Item>
+    <Item>
+      <Source>gamefont.spritefont</Source>
+      <Name>gamefont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\gamefont.xnb</Output>
+      <Time>2013-04-11T15:45:46.6160086-07:00</Time>
+    </Item>
+    <Item>
+      <Source>menufont.spritefont</Source>
+      <Name>menufont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\menufont.xnb</Output>
+      <Time>2013-04-11T15:45:46.5949942-07:00</Time>
+    </Item>
+    <Item>
+      <Source>fpsfont.spritefont</Source>
+      <Name>fpsfont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\fpsfont.xnb</Output>
+      <Time>2013-04-11T15:45:50.1868277-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Arch_Lintel.fbx</Source>
+      <Name>Models\Arch_Lintel</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\Arch_Lintel.xnb</Output>
+      <Time>2013-04-26T07:23:40.6897693-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\Arch_Lintel_0.xml</Key>
+        <Value>2013-04-26T07:58:36.8175876-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Arch_Side.fbx</Source>
+      <Name>Models\Arch_Side</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\Arch_Side.xnb</Output>
+      <Time>2013-04-26T07:23:40.6857667-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\Arch_Side_0.xml</Key>
+        <Value>2013-04-26T07:58:36.9306639-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Building.fbx</Source>
+      <Name>Models\Building</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\Building.xnb</Output>
+      <Time>2013-04-26T07:23:40.6977747-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\Building_0.xml</Key>
+        <Value>2013-04-26T07:58:36.9796968-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Starship.fbx</Source>
+      <Name>Models\Starship</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\Starship.xnb</Output>
+      <Time>2013-04-26T07:23:40.6937732-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\Starship_0.xml</Key>
+        <Value>2013-04-26T07:58:37.0907705-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Cliff.fbx</Source>
+      <Name>Models\Cliff</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\Cliff.xnb</Output>
+      <Time>2013-04-11T15:45:45.904537-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\Cliff_0.xml</Key>
+        <Value>2013-04-26T07:58:37.2068466-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\CliffWall_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Ocean.fbx</Source>
+      <Name>Models\Ocean</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\Ocean.xnb</Output>
+      <Time>2013-04-11T15:45:46.4819186-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\Ocean_0.xml</Key>
+        <Value>2013-04-26T07:58:37.4780281-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\Water_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Bomb.fbx</Source>
+      <Name>Models\Bomb</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\Bomb.xnb</Output>
+      <Time>2013-04-11T15:45:45.8815183-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\Bomb_0.xml</Key>
+        <Value>2013-04-26T07:58:37.7672193-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\cube.fbx</Source>
+      <Name>Models\cube</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\cube.xnb</Output>
+      <Time>2013-04-11T15:45:45.8384899-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\cube_0.xml</Key>
+        <Value>2013-04-26T07:58:37.8222556-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\back_0.xnb</Request>
+      <Request>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\up_0.xnb</Request>
+      <Request>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\front_0.xnb</Request>
+      <Request>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\down_0.xnb</Request>
+      <Request>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\left_0.xnb</Request>
+      <Request>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\right_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Missile.fbx</Source>
+      <Name>Models\Missile</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\Missile.xnb</Output>
+      <Time>2013-04-26T07:23:40.6807642-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\Missile_0.xml</Key>
+        <Value>2013-04-26T07:58:39.150141-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Grass.fbx</Source>
+      <Name>Models\Grass</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\Grass.xnb</Output>
+      <Time>2013-04-11T15:45:45.8595042-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\Grass_0.xml</Key>
+        <Value>2013-04-26T07:58:39.2091818-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\Grass_Texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Asteroid.x</Source>
+      <Name>Models\Asteroid</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\Asteroid.xnb</Output>
+      <Time>2013-04-11T15:45:45.5352881-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\Asteroid_0.xml</Key>
+        <Value>2013-04-26T07:58:39.9116473-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Ship.x</Source>
+      <Name>Models\Ship</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\Ship.xnb</Output>
+      <Time>2013-04-11T15:45:46.5709806-07:00</Time>
+      <Dependency>
+        <Key>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\Ship_0.xml</Key>
+        <Value>2013-04-26T07:58:40.303911-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Audio\corneria.mp3</Source>
+      <Name>Audio\corneria</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Audio\corneria.xnb</Output>
+      <Extra>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Audio\corneria.wma</Extra>
+      <Time>2013-04-11T15:45:47.8309512-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Arch_Lintel.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\Arch_Lintel_0.xml</Output>
+      <Time>2013-04-26T07:23:40.6897693-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Arch_Side.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\Arch_Side_0.xml</Output>
+      <Time>2013-04-26T07:23:40.6857667-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Building.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\Building_0.xml</Output>
+      <Time>2013-04-26T07:23:40.6977747-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Starship.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\Starship_0.xml</Output>
+      <Time>2013-04-26T07:23:40.6937732-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Cliff.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\Cliff_0.xml</Output>
+      <Time>2013-04-11T15:45:45.904537-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\CliffWall.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\CliffWall_0.xnb</Output>
+      <Time>2013-04-11T15:45:45.7304215-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Ocean.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\Ocean_0.xml</Output>
+      <Time>2013-04-11T15:45:46.4819186-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Water.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\Water_0.xnb</Output>
+      <Time>2013-04-11T15:45:46.4538999-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Bomb.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\Bomb_0.xml</Output>
+      <Time>2013-04-11T15:45:45.8815183-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\cube.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\cube_0.xml</Output>
+      <Time>2013-04-11T15:45:45.8384899-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\back.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\back_0.xnb</Output>
+      <Time>2013-04-11T15:45:45.4672481-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\up.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\up_0.xnb</Output>
+      <Time>2013-04-11T15:45:45.9385566-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\front.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\front_0.xnb</Output>
+      <Time>2013-04-11T15:45:46.5139405-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\down.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\down_0.xnb</Output>
+      <Time>2013-04-11T15:45:45.781454-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\left.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\left_0.xnb</Output>
+      <Time>2013-04-11T15:45:46.5459643-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\right.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\right_0.xnb</Output>
+      <Time>2013-04-11T15:45:45.8144739-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Missile.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\Missile_0.xml</Output>
+      <Time>2013-04-26T07:23:40.6807642-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Grass.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\Grass_0.xml</Output>
+      <Time>2013-04-11T15:45:45.8595042-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Grass_Texture.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\Models\Grass_Texture_0.xnb</Output>
+      <Time>2013-04-11T15:45:45.4942598-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Asteroid.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\Asteroid_0.xml</Output>
+      <Time>2013-04-11T15:45:45.5352881-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Ship.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\Models\Ship_0.xml</Output>
+      <Time>2013-04-11T15:45:46.5709806-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{3B1153C5-E30C-42B2-829E-90B58D3A6EFE}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Kevin\Documents\GitHub\code-foo-2013\xna_game\GameStateManagement\bin\x86\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-02-06T15:23:36.1981948-08:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
