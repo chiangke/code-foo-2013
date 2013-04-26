@@ -14,7 +14,7 @@ Right mouse button - DO A BARREL ROLL
 Fixes/changes coming soon:
 Improved enemy movement/firing
 Audio - sound effects
-Make collision bounding spheres invisible (still in for testing purposes)
+Make collision bounding spheres in ship & lasers invisible (still in for testing purposes)
 Utilize the homing charge shot (too easy to kill enemies right now with regular firing)
 Free roam segment 
 Laser charge indicator (glowing orb to show when homing laser is charged)
