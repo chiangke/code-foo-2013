@@ -14,12 +14,10 @@ public class ThreeLetterWord {
 		 String word;
 		 Node predecessor;
 		 ArrayList<Node> nodeList;
-		 int depth;
 		 boolean visited;
 		 public Node(String s) {
 			 word = s;
 			 predecessor = null;
-			 depth = -1;
 			 visited = false;
 		 }
 		 public void setPredecessor(Node n) {
@@ -34,12 +32,6 @@ public class ThreeLetterWord {
 		 public Node getPredecessor() {
 			 return predecessor;
 		 }
-		 public void setDepth(int i) {
-			 depth = i;
-		 }
-		 public int getDepth() {
-			 return depth;
-		 }
 		 public void setVisited() {
 			 visited = true;
 		 }
@@ -48,104 +40,86 @@ public class ThreeLetterWord {
 		 }
 	 }
 	 public ThreeLetterWord() {
-		
 		try {
 			scanner = new Scanner(new File("three-letter-words.txt"));
 		} catch(FileNotFoundException e) {
 			System.out.println("Couldn't find file three-letter-words.txt");
 		}
 		while (scanner.hasNext()) {
-			dictionary.add(scanner.nextLine().toLowerCase());
+			dictionary.add(scanner.nextLine().toLowerCase()); //add all 3-letter words to dictionary
 		}
 		inputScanner = new Scanner(System.in);
-		
-		 String start, end;
-		 while(true) {
-			 graph = new ConcurrentHashMap<String, Node>();
-			 System.out.println("Enter starting word: ");
-			 start = inputScanner.nextLine();
-			 System.out.println("Enter ending word: ");
-			 end = inputScanner.nextLine();
-			 makeGraph(graph, start);
+		String start, end;
+		while(true) {
+			graph = new ConcurrentHashMap<String, Node>();
+			System.out.println("Enter starting word: ");
+			start = inputScanner.nextLine();
+			System.out.println("Enter ending word: ");
+			end = inputScanner.nextLine();
+			makeGraph(graph, start); //build first layer of graph
 			breadthfirstsearch(graph, start, end);
 			System.out.println("");
 		 }
 	 }
-	 public static void main(String[] args) {
-		ThreeLetterWord tlw = new ThreeLetterWord();
-		 }
 	 public void breadthfirstsearch(ConcurrentHashMap<String, Node> graph, String start, String end) {
 		 ArrayDeque<Node> queue = new ArrayDeque<Node>();
 		 ArrayList<Node> nodeList;
 		 String temp;
-		 boolean found = false;
-		 queue.add(graph.get(start));
+		 queue.add(graph.get(start)); //add first node to queue
 		 looking:
 		 while(!queue.isEmpty()) {
 			 temp = queue.pop().word;
-			 if (!graph.get(temp).getVisited()) {
-				 if (temp.equals(end)) {
-					 queue.clear();
-					 break;
-				 }
+			 if (temp.equals(end)) { //check if this is the word we're looking for
+				 queue.clear();
+				 break;
 			 }
-				 
-						 nodeList = makeGraph(graph, temp);
-				 for(Node n : nodeList) {
-					 if (!graph.get(n.word).getVisited()) {
-						 graph.get(n.word).setPredecessor(graph.get(temp));
-						 graph.get(n.word).setVisited();
-						 queue.add(graph.get(n.word));
-						 if (n.word.equals(end)) {
-							 queue.clear();
-							 break looking;
-						 }
+			 nodeList = makeGraph(graph, temp); //if not, need to go another layer in
+			 for(Node n : nodeList) {
+				 if (!graph.get(n.word).getVisited()) {
+					 graph.get(n.word).setPredecessor(graph.get(temp));
+					 graph.get(n.word).setVisited();
+					 queue.add(graph.get(n.word)); //add all of this word's neighbors to queue
+					 if (n.word.equals(end)) { //if the word we want is in this word's neighbors
+						 queue.clear();		//done looking
+						 break looking;
 					 }
 				 }
-			 
+			 }
 		 }
-		 if (graph.get(end)==null) {
+		 if (graph.get(end)==null) { //no such path exists
 			 System.out.println("Could not find match to " + end);
 		 }
 		 else {
 			 System.out.print(start + " -> ");
 			 String from = end;
-			 Node endNode = graph.get(from);
-		     while (graph.get(from).getPredecessor()!=null) {
+			 int count = 1;
+		     while (graph.get(from).getPredecessor()!=null) { //moving backwards from end word
 		    	 if (!graph.get(from).getPredecessor().word.equals(start)) {
-		    		 queue.add(graph.get(from).getPredecessor());
+		    		 queue.add(graph.get(from).getPredecessor()); //push all predecessors to queue
 		    	 }
 		    	 else
 		    		 break;
 		    	 from = graph.get(from).getPredecessor().word;
 		    }
-		     while (!queue.isEmpty()) {
+		     while (!queue.isEmpty()) { //print in correct order now
 		         System.out.print(queue.pollLast().word + " -> ");
+		         count++;
 		     }
 		     System.out.print(end);
+		     System.out.println("\nTook " + count + " moves");
 		 }
-	 }
-	 public void mapNeighbors(String word) {
-		ArrayList<Node> nodes = new ArrayList<Node>();
-		Node temp;
-		for (String s : findNeighbors(word)) {
-			nodes.add(new Node(s));
-		}
-		temp = new Node(word);
-		temp.setList(nodes);
-	 }
-	 
-	 public ArrayList<String> findNeighbors(String word) {
+	 }	 
+	 public ArrayList<String> findNeighbors(String word) { //find all neighbors for this word
 		 ArrayList<String> neighbors = new ArrayList<String>();
 		 StringBuilder theWord = new StringBuilder(word);
 		 StringBuilder newWord;
-		 for (int i=0; i<3; i++) {
-			 for (int j=0; j<26; j++) {
-				 if (alphabet.charAt(j)!=theWord.charAt(i)) {
+		 for (int i=0; i<3; i++) { //check all combinations with 1st, 2nd, 3rd letter swapped
+			 for (int j=0; j<26; j++) { //check all possible letters to swap
+				 if (alphabet.charAt(j)!=theWord.charAt(i)) { //check if same letter
 					 newWord = new StringBuilder(word);
 					 newWord.setCharAt(i, alphabet.charAt(j));
-					 if (dictionary.contains(newWord.toString())) {
-						 neighbors.add(newWord.toString());
+					 if (dictionary.contains(newWord.toString())) {//check if word exists
+						 neighbors.add(newWord.toString()); //if so, add to neighbors
 					 }
 				 }
 			 }
@@ -154,7 +128,7 @@ public class ThreeLetterWord {
 	 }
  
 	 public ArrayList<Node> makeGraph(ConcurrentHashMap<String, Node> graph, String word) {
-		 ArrayList<String> neighbors = findNeighbors(word);
+		 ArrayList<String> neighbors = findNeighbors(word); //got a list of word's neighbors
 		 ArrayList<Node> nodes = new ArrayList<Node>();
 		 Node startNode = new Node(word);
 		 Node newNode;
@@ -163,9 +137,12 @@ public class ThreeLetterWord {
 			 nodes.add(newNode);
 			 graph.putIfAbsent(s, newNode);
 		 }
-		 startNode.setList(nodes);
+		 startNode.setList(nodes); //make sure node has neighbors
 		 graph.putIfAbsent(word, startNode);
 		 graph.get(word).setList(nodes);
 		 return nodes;
+	 }
+	 public static void main(String[] args) {
+			ThreeLetterWord tlw = new ThreeLetterWord();
 	 }
 }
